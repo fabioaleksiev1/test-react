@@ -1,0 +1,67 @@
+$theme-colors: (
+  "primary": #1D7874
+);
+
+.general-separator{
+  margin: 1em 0;
+
+  &--sp{
+    margin: 3em 0;
+  }
+}
+
+.footer-button{
+  border: none;
+  color: #ffb302;
+  background-color: transparent;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: all 1s ease-in;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.footer-table{
+  table-layout: fixed;
+  width: 100%;
+  
+}
+
+.page-info{
+  display: block;
+  padding: 2em .5em;
+  background-color: rgba($color: #f1f1f1, $alpha: 0.88);
+  width: 100%;
+  border-radius: 2px;
+}
+
+body{
+  background-color: #f1f1f1;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a8b973e0-c511-4682-8ba7-6c7619e98a0c/daqy7ub-a78b2b7c-7548-49a6-a519-c78c4c3fb15a.png/v1/fill/w_894,h_894,q_75,strp/gold_lacy_pattern_seamless_by_yagellonica-daqy7ub.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hOGI5NzNlMC1jNTExLTQ2ODItOGJhNy02Yzc2MTllOThhMGMvZGFxeTd1Yi1hNzhiMmI3Yy03NTQ4LTQ5YTYtYTUxOS1jNzhjNGMzZmIxNWEucG5nIiwid2lkdGgiOiI8PTg5NCIsImhlaWdodCI6Ijw9ODk0In1dXX0.2CF1MEhGzw0CSY4VOeNMcKRlAhUOp8vV0Z-8RoOsZ-I");
+  background-size: auto
+};
+
+h1, h2, h3{
+  font-family: "Palatino Linotype",Palatino,"Century Schoolbook L","Times New Roman","serif";
+}
+
+.sp-card-border{
+  border: 1px solid #ccc;
+  transition: all 1s ease-in;
+  cursor: pointer;
+  border-radius: 2px!important;
+
+  &:hover{
+    border: 1px solid #ffb302;
+    transform: scale(1.1);
+  }
+}
+
+.to-upper{
+  text-transform: uppercase;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
